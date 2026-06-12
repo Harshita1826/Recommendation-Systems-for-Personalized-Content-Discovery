@@ -220,7 +220,7 @@ Recommendation quality is analyzed through:
 
 Recommendation-Systems-for-Personalized-Content-Discovery/
 
-├── recommendation_systum_final_code.ipynb
+├── recommendation_systems_final_code.ipynb
 ├── report.pdf
 ├── presentation_deck.pdf
 ├── requirements.txt
