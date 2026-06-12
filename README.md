@@ -221,8 +221,8 @@ Recommendation quality is analyzed through:
 Recommendation-Systems-for-Personalized-Content-Discovery/
 
 ├── recommendation_systum_final_code.ipynb
-├── Recommendation Systems for Personalized Content Discovery_report.pdf
-├── Recommendation Systems for Personalized Content Discovery_ppt.pdf
+├── report.pdf
+├── presentation_deck.pdf
 ├── requirements.txt
 └── README.md
 
