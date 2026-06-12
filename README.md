@@ -222,7 +222,7 @@ Recommendation-Systems-for-Personalized-Content-Discovery/
 
 ├── recommendation_systems_final_code.ipynb
 ├── report.pdf
-├── presentation_deck.pdf
+├── presentation_deck.pptx
 ├── requirements.txt
 └── README.md
 
@@ -238,17 +238,47 @@ Install required libraries:
 pip install -r requirements.txt
 ```
 
----
-
 ## Reproducing Results
 
-1. Clone the repository.
-2. Install dependencies using requirements.txt.
-3. Open the notebook.
-4. Run all notebook cells sequentially.
-5. Generate evaluation metrics and recommendations.
+### Google Colab (Recommended)
 
----
+1. Download or clone this repository.
+2. Upload `recommendation_systum_final_code.ipynb` to Google Colab.
+3. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Download the Netflix Prize Dataset from Kaggle.
+5. Create the following folder in Google Drive:
+
+```text
+MyDrive/netflix_dataset/
+```
+
+6. Place the following dataset files inside the folder:
+
+```text
+combined_data_1.txt
+combined_data_2.txt
+combined_data_3.txt
+combined_data_4.txt
+movie_titles.csv
+probe.txt
+qualifying.txt
+```
+
+7. Mount Google Drive in Google Colab.
+8. Ensure the dataset directory path is:
+
+```python
+DATA_DIR = '/content/drive/MyDrive/netflix_dataset/'
+```
+
+9. Run all notebook cells sequentially.
+
+The notebook will perform data preprocessing, exploratory data analysis, model training, evaluation, and recommendation generation.
 
 ## Author
 
