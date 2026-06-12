@@ -76,6 +76,17 @@ Key findings:
 
 ---
 
+## Model Training Pipeline
+
+1. Train the Global Mean Baseline model as a benchmark.
+2. Train the Item-Based Collaborative Filtering (IBCF) model using cosine similarity between movies.
+3. Train the SVD Matrix Factorization model using the Scikit-Surprise library.
+4. Perform hyperparameter tuning for SVD using GridSearchCV.
+5. Evaluate all models using RMSE and MAP@10.
+6. Generate Top-K personalized movie recommendations for users.
+
+---
+
 ## Train-Test Split Strategy
 
 User-wise random 80/20 split (seed = 42)
