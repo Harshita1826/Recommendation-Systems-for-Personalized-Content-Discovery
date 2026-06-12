@@ -243,7 +243,7 @@ pip install -r requirements.txt
 ### Google Colab (Recommended)
 
 1. Download or clone this repository.
-2. Upload `recommendation_systum_final_code.ipynb` to Google Colab.
+2. Upload `recommendation_systems_final_code.ipynb` to Google Colab.
 3. Install the required dependencies:
 
 ```bash
